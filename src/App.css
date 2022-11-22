@@ -1,38 +1,189 @@
-.App {
+#topAdiv{
+
+  width: 100%;
+  background-color: #F4F4F4;
+  border-bottom: 1px solid #E7E7E8;
+  padding-top: 38px;
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+#topA{
+ 
+  text-align: center;
+    font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: none;
+  text-align: center;
+  color: #414143;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+#imglogo{
+  padding: 13px;
+}
+#head2button{
+  height: 28px;
+  width: 114px;
+  margin-right: 20px;
+  color: #414143;
+  background-color: white;
+  border: 1px solid #414143;
+}
+#head2button:hover{
+  background-color: #F4F4F4;
+  border: 1px solid #414143;
+  outline: none;
+  /* border: none; */
+}
+#head2{
+  /* background-color: aqua; */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+
+}
+#logoimgs1{
+  margin-right: 5px;
+}
+#logoheadimgs{
+
+  padding: 3px;
+  display: flex;
+}
+#logoheadimgs:hover{
+  border-radius: 10px;
+background-color: #E7E7E8;
+}
+
+#head25{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 13px;
+  display: flex;
+  /* margin-right: 10px; */
+  /* justify-items: end; */
+  /* justify-content: space-around; */
+}
+#posterdiv{
+  background-image: url(https://resources.turo.com/f/81934/992x400/201b368107/hp_ny_992x400_2.jpg);
+  width: auto;
+  /* height: 401px; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: 0 0; */
+  ;
+  position: relative;
+  height: 400px;
+  background-position-x: center;
+  background-position-y: center;
+}
+.whereinput{
+  width: auto;
+  border: none ;
+  
+}
+.whereinputsearch{
+  border: none ;
+  width: 280px;
+}
+#inputsdiv{
+  /* margin: 20px 5%; */
+  margin: 0 ;
+  top: 10px;
+  left: 15%;
+  position: absolute;
+  display: flex;
+  /* justify-content: center; */
+  width: 70%;
+  background-color: white;
+  border-radius: 50px;
+}
+.wherelabel{
+  /* background-color: aquamarine; */
+  margin-left: 10px;
+  display: block;
+  font-size: 13px;
+}
+#searchicon{
+  margin: auto 0;
+  height: 40px;
+  width: 40px;
+  background-color: #593cfb;
+  border-radius: 50%;
+}
+#searchiconimg {
+  margin-top: 8px;
+  margin-left: 8px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.dateTime{
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.inputparentdiv{
+  border-right: 2px solid #F4F4F4;
+  margin: 10px;
+
+  /* background-color: red; */
+}
+#searchbtn{
+display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+ 
+  #head2button{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .whereinput{
+    width: 100%;
+    border: none ;
+    
+  }
+  #inputsdiv{
+    /* margin: 20px 15%; */
+    margin: 0 ;
+    /* top: 10px; */
+    left: 5%;
+    position: absolute;
+    display: block;
+    /* justify-content: center; */
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .whereinputsearch{
+    border: none ;
+    width: 100%;
+  }
+  .inputparentdiv{
+    border-bottom: 1px solid #b3b1b1;
+    padding: 5px;
+    margin: 10px;
+    /* background-color: red; */
+  }
+  #searchicon{
+    display: none;
+    background-color: #593cfb;
+   
+  }
+  #searchbtn{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #593cfb;
+    display: block;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: white;
   }
 }
