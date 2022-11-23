@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {App,Head2,Poster} from './App';
+import {App,Head2,Poster,Findyourdrive,BrowserSlider,Roundslider,Citiesslider} from './App';
+import Responsive from './App';
 import reportWebVitals from './reportWebVitals';
 import Container from 'react-bootstrap/Container';
 
@@ -13,6 +14,11 @@ root.render(
 
     <Head2 />
     <Poster />
+    <Findyourdrive/>
+    <BrowserSlider/>
+    <Roundslider/>
+    <Citiesslider/>
+{/* <Responsive/> */}
     {/* </Container> */}
   </React.StrictMode>
 );
