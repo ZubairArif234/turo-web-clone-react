@@ -31,6 +31,7 @@
   color: #414143;
   background-color: white;
   border: 1px solid #414143;
+  /* margin-bottom: 30px ; */
 }
 #head2button:hover{
   background-color: #F4F4F4;
@@ -49,14 +50,80 @@
 #logoimgs1{
   margin-right: 5px;
 }
-#logoheadimgs{
 
-  padding: 3px;
-  display: flex;
+#logonav{
+  height: 10px;
+  margin-bottom: 10px;
+  border: none;
+
+  padding-bottom:10px ;
+ 
 }
 #logoheadimgs:hover{
   border-radius: 10px;
 background-color: #E7E7E8;
+}
+.signupbtns{
+  /* display: block;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #414143;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #fff;
+  font-size: 16px; */
+  border-radius: 0px;
+    cursor: pointer;
+    font-family: BasisGrotesque, Avenir, "Helvetica Neue", Helvetica, sans-serif;
+    outline: none;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    user-select: none;
+    /* vertical-align: top; */
+    white-space: nowrap;
+    width: 100%;
+    font-size: 16px;
+    line-height: 43px;
+    padding: 0px 14px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(18, 18, 20);
+    background: none;
+    border: 1px solid rgb(18, 18, 20);
+    font-weight: normal;
+    margin-bottom: 12px;
+    height: 50px;
+}
+.signupbtns:hover{
+  background-color: #b3b1b1;
+  border: 1px solid #593cfb;
+}
+.signupbtn{
+  
+  padding: 5px 10px;
+  border: 2px solid #414143;
+  margin: 0 auto;
+ margin-left: 10px;
+  background-color: #fff;
+  font-size: 16px;
+}
+.btnpsignup{
+  margin-left: 10px;
+  display: inline;
+}
+.extrap{
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+.signupp{
+  padding-top: 90px;
+  /* background-color: #593cfb; */
+  text-align: center;
 }
 
 #head25{
@@ -64,6 +131,7 @@ background-color: #E7E7E8;
   margin-bottom: auto;
   padding: 13px;
   display: flex;
+  
   /* margin-right: 10px; */
   /* justify-items: end; */
   /* justify-content: space-around; */
